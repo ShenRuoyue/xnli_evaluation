@@ -1,3 +1,8 @@
+# Environment setup
+pip install accelerate
+pip install -U "huggingface_hub[cli]"
+
+
 This folder contains the "Cross-lingual Natural Language Inference" (XNLI) data.
 XNLI consists of dev and test sets for the MNLI task, in 15 languages:
 
