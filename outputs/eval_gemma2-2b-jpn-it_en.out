@@ -1,0 +1,57 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.30it/s]
+The 'max_batch_size' argument of HybridCache is deprecated and will be removed in v4.46. Use the more precisely named 'batch_size' argument instead.
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Evaluated [0/5010]: Spent time: 0:00:07, Rest time:  9:44:30
+Evaluated [100/5010]: Spent time: 0:02:16, Rest time:  1:50:11.486850
+Evaluated [200/5010]: Spent time: 0:04:24, Rest time:  1:45:17.612730
+Evaluated [300/5010]: Spent time: 0:06:33, Rest time:  1:42:29.602080
+Evaluated [400/5010]: Spent time: 0:08:42, Rest time:  1:40:01.049060
+Evaluated [500/5010]: Spent time: 0:10:50, Rest time:  1:37:31.296550
+Evaluated [600/5010]: Spent time: 0:12:59, Rest time:  1:35:16.122930
+Evaluated [700/5010]: Spent time: 0:15:07, Rest time:  1:32:56.562460
+Evaluated [800/5010]: Spent time: 0:17:14, Rest time:  1:30:34.630060
+Evaluated [900/5010]: Spent time: 0:19:23, Rest time:  1:28:25.138680
+ InputExample(guid='test-20980', text_a="so i don't know wish i did", text_b="I don't know and I don't care at all.", label='contradiction')
+Evaluated [1000/5010]: Spent time: 0:21:33, Rest time:  1:26:19.749080
+Evaluated [1100/5010]: Spent time: 0:23:42, Rest time:  1:24:09.972230
+Evaluated [1200/5010]: Spent time: 0:25:50, Rest time:  1:21:57.151710
+Evaluated [1300/5010]: Spent time: 0:27:58, Rest time:  1:19:45.072670
+Evaluated [1400/5010]: Spent time: 0:30:07, Rest time:  1:17:36.152730
+Evaluated [1500/5010]: Spent time: 0:32:15, Rest time:  1:15:24.884910
+Evaluated [1600/5010]: Spent time: 0:34:23, Rest time:  1:13:14.023700
+ InputExample(guid='test-21651', text_a='They are ships of the Jamaica fleet,  his lordship answered her.', text_b='They are ships of the American fleet, his lordship answered her.', label='contradiction')
+Evaluated [1700/5010]: Spent time: 0:36:31, Rest time:  1:11:03.498460
+Evaluated [1800/5010]: Spent time: 0:38:39, Rest time:  1:08:53.253780
+Evaluated [1900/5010]: Spent time: 0:40:47, Rest time:  1:06:43.244870
+Evaluated [2000/5010]: Spent time: 0:42:55, Rest time:  1:04:33.439570
+Evaluated [2100/5010]: Spent time: 0:45:03, Rest time:  1:02:23.802300
+Evaluated [2200/5010]: Spent time: 0:47:11, Rest time:  1:00:14.317540
+Evaluated [2300/5010]: Spent time: 0:49:19, Rest time:  0:58:04.959730
+Evaluated [2400/5010]: Spent time: 0:51:27, Rest time:  0:55:55.713540
+Evaluated [2500/5010]: Spent time: 0:53:36, Rest time:  0:53:47.573860
+Evaluated [2600/5010]: Spent time: 0:55:44, Rest time:  0:51:38.438190
+Evaluated [2700/5010]: Spent time: 0:57:52, Rest time:  0:49:29.389500
+Evaluated [2800/5010]: Spent time: 1:00:00, Rest time:  0:47:20.413550
+Evaluated [2900/5010]: Spent time: 1:02:08, Rest time:  0:45:11.506140
+Evaluated [3000/5010]: Spent time: 1:04:35, Rest time:  0:43:15.384360
+Evaluated [3100/5010]: Spent time: 1:07:21, Rest time:  0:41:28.974480
+Evaluated [3200/5010]: Spent time: 1:10:08, Rest time:  0:39:39.406090
+Evaluated [3300/5010]: Spent time: 1:12:54, Rest time:  0:37:45.840630
+Evaluated [3400/5010]: Spent time: 1:15:40, Rest time:  0:35:49.190610
+Evaluated [3500/5010]: Spent time: 1:18:26, Rest time:  0:33:49.722370
+Evaluated [3600/5010]: Spent time: 1:21:12, Rest time:  0:31:47.670780
+Evaluated [3700/5010]: Spent time: 1:23:42, Rest time:  0:29:37.579610
+Evaluated [3800/5010]: Spent time: 1:25:55, Rest time:  0:27:21.028620
+Evaluated [3900/5010]: Spent time: 1:28:06, Rest time:  0:25:04.091070
+Evaluated [4000/5010]: Spent time: 1:30:16, Rest time:  0:22:47.198620
+Evaluated [4100/5010]: Spent time: 1:32:35, Rest time:  0:20:32.638680
+Evaluated [4200/5010]: Spent time: 1:34:54, Rest time:  0:18:17.867520
+Evaluated [4300/5010]: Spent time: 1:37:04, Rest time:  0:16:01.413840
+Evaluated [4400/5010]: Spent time: 1:39:13, Rest time:  0:13:45.114670
+Evaluated [4500/5010]: Spent time: 1:41:28, Rest time:  0:11:29.819880
+Evaluated [4600/5010]: Spent time: 1:43:44, Rest time:  0:09:14.627090
+Evaluated [4700/5010]: Spent time: 1:45:56, Rest time:  0:06:59.136430
+Evaluated [4800/5010]: Spent time: 1:48:07, Rest time:  0:04:43.747170
+Evaluated [4900/5010]: Spent time: 1:50:21, Rest time:  0:02:28.604390
+Evaluated [5000/5010]: Spent time: 1:52:30, Rest time:  0:00:13.497300
+google/gemma-2-2b-jpn-it Accuracy on dev_set:  0.5145708582834332

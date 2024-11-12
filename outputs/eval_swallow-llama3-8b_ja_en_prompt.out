@@ -1,0 +1,11 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.74s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.64s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.52s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.07s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.27s/it]
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Evaluated [0/609]: Spent time: 0:00:25, Rest time:  4:13:45
+Evaluated [100/609]: Spent time: 0:02:42, Rest time:  0:13:36.415640
+Evaluated [200/609]: Spent time: 0:04:29, Rest time:  0:09:07.367972
+Evaluated [300/609]: Spent time: 0:06:08, Rest time:  0:06:17.780619
+Evaluated [400/609]: Spent time: 0:07:50, Rest time:  0:04:04.962630
+Evaluated [500/609]: Spent time: 0:09:29, Rest time:  0:02:03.794461
+Evaluated [600/609]: Spent time: 0:11:08, Rest time:  0:00:10.003329
+dataset len, correct number:  2434 353
+tokyotech-llm/Llama-3-Swallow-8B-v0.1 Accuracy on language ja:  0.14502875924404274 0.14502875924404274

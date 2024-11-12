@@ -1,0 +1,12 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.86s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.17it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.01s/it]
+The 'max_batch_size' argument of HybridCache is deprecated and will be removed in v4.46. Use the more precisely named 'batch_size' argument instead.
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Evaluated [0/609]: Spent time: 0:00:06, Rest time:  1:00:54
+Evaluated [100/609]: Spent time: 0:02:07, Rest time:  0:10:40.029834
+Evaluated [200/609]: Spent time: 0:04:14, Rest time:  0:08:36.845938
+Evaluated [300/609]: Spent time: 0:06:13, Rest time:  0:06:22.913727
+Evaluated [400/609]: Spent time: 0:08:15, Rest time:  0:04:17.992526
+Evaluated [500/609]: Spent time: 0:10:13, Rest time:  0:02:13.367277
+Evaluated [600/609]: Spent time: 0:12:11, Rest time:  0:00:10.946754
+dataset len, correct number:  2434 1452
+google/gemma-2-2b-it Accuracy on language ja:  0.5965488907148726 0.5965488907148726

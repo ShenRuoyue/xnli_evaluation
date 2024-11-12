@@ -1,0 +1,68 @@
+nohup: ignoring input
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.64s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.31it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.12it/s]
+The 'max_batch_size' argument of HybridCache is deprecated and will be removed in v4.46. Use the more precisely named 'batch_size' argument instead.
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Evaluated [0/5010]: Spent time: 0:00:07, Rest time:  9:44:30
+Evaluated [100/5010]: Spent time: 0:02:14, Rest time:  1:48:34.259030
+Evaluated [200/5010]: Spent time: 0:04:20, Rest time:  1:43:41.888920
+ InputExample(guid='test-10268', text_a='Er wäre geboren worden', text_b='Er sollte geboren werden.', label='entailment')
+Evaluated [300/5010]: Spent time: 0:06:27, Rest time:  1:40:55.712940
+ InputExample(guid='test-10340', text_a='Es ist mir egal wie es dir geht.', text_b='Ich muss jedem Geschäft zustimmen.', label='contradiction')
+Evaluated [400/5010]: Spent time: 0:08:33, Rest time:  1:38:17.582220
+Evaluated [500/5010]: Spent time: 0:10:39, Rest time:  1:35:52.274990
+ InputExample(guid='test-10554', text_a='Wie würdest du Aerobic machen?', text_b='Bitte hör auf, über Aerobic zu reden.', label='contradiction')
+ InputExample(guid='test-10585', text_a='ich versuche durchzuhalten', text_b='Ich versuche kurz zu warten.', label='entailment')
+ InputExample(guid='test-10587', text_a='ich versuche durchzuhalten', text_b='Ich werde loslassen und niemals zurückblicken.', label='contradiction')
+Evaluated [600/5010]: Spent time: 0:12:46, Rest time:  1:33:40.730220
+Evaluated [700/5010]: Spent time: 0:14:52, Rest time:  1:31:24.337080
+Evaluated [800/5010]: Spent time: 0:16:59, Rest time:  1:29:15.793600
+Evaluated [900/5010]: Spent time: 0:19:05, Rest time:  1:27:03.029100
+Evaluated [1000/5010]: Spent time: 0:21:11, Rest time:  1:24:51.617300
+Evaluated [1100/5010]: Spent time: 0:23:18, Rest time:  1:22:44.742050
+Evaluated [1200/5010]: Spent time: 0:25:25, Rest time:  1:20:37.842750
+Evaluated [1300/5010]: Spent time: 0:27:31, Rest time:  1:18:28.079040
+Evaluated [1400/5010]: Spent time: 0:29:37, Rest time:  1:16:18.851800
+Evaluated [1500/5010]: Spent time: 0:31:44, Rest time:  1:14:12.392880
+Evaluated [1600/5010]: Spent time: 0:33:50, Rest time:  1:12:03.736780
+ InputExample(guid='test-11631', text_a='Es sind Schiffe der Jamaika-Flotte, antwortete seine Lordschaft.', text_b='Sie sind Schiffe der amerikanischen Flotte, antwortete seine Lordschaft.', label='contradiction')
+Evaluated [1700/5010]: Spent time: 0:35:57, Rest time:  1:09:57.338180
+Evaluated [1800/5010]: Spent time: 0:38:03, Rest time:  1:07:49.089090
+ InputExample(guid='test-11857', text_a='Ich wünsche dir einen guten Morgen, sagte er und fügte hinzu, ich habe schlecht geplündert, habe ich', text_b='Guten Abend, sagte er zu ihm.', label='contradiction')
+Evaluated [1900/5010]: Spent time: 0:40:10, Rest time:  1:05:42.714940
+ InputExample(guid='test-11950', text_a='Im Nu sah Captain Blood, was sie dachten.', text_b='Captain Blood las hastig, was die anderen Leute dachten.', label='entailment')
+ InputExample(guid='test-11978', text_a='Miss Bishop befand sich ebenfalls an Bord der Royal Mary und ich rettete sie zusammen mit ihrer Lordschaft.', text_b='Ich habe Miss Bishop und seine Lordschaft zusammen gerettet.', label='entailment')
+ InputExample(guid='test-11979', text_a='Miss Bishop befand sich ebenfalls an Bord der Royal Mary und ich rettete sie zusammen mit ihrer Lordschaft.', text_b='Miss Bishop rettete mich und seine Lordschaft.', label='contradiction')
+Evaluated [2000/5010]: Spent time: 0:42:16, Rest time:  1:03:34.771660
+Evaluated [2100/5010]: Spent time: 0:44:23, Rest time:  1:01:28.401720
+Evaluated [2200/5010]: Spent time: 0:46:29, Rest time:  0:59:20.694310
+Evaluated [2300/5010]: Spent time: 0:48:36, Rest time:  0:57:14.315250
+Evaluated [2400/5010]: Spent time: 0:50:42, Rest time:  0:55:06.796920
+Evaluated [2500/5010]: Spent time: 0:52:49, Rest time:  0:53:00.403430
+Evaluated [2600/5010]: Spent time: 0:54:55, Rest time:  0:50:53.036200
+Evaluated [2700/5010]: Spent time: 0:57:02, Rest time:  0:48:46.626780
+Evaluated [2800/5010]: Spent time: 0:59:08, Rest time:  0:46:39.384900
+Evaluated [2900/5010]: Spent time: 1:01:15, Rest time:  0:44:32.958550
+Evaluated [3000/5010]: Spent time: 1:03:21, Rest time:  0:42:25.821780
+Evaluated [3100/5010]: Spent time: 1:05:28, Rest time:  0:40:19.374080
+Evaluated [3200/5010]: Spent time: 1:07:34, Rest time:  0:38:12.326990
+Evaluated [3300/5010]: Spent time: 1:09:40, Rest time:  0:36:05.343930
+Evaluated [3400/5010]: Spent time: 1:11:45, Rest time:  0:33:57.944440
+Evaluated [3500/5010]: Spent time: 1:13:51, Rest time:  0:31:51.113380
+Evaluated [3600/5010]: Spent time: 1:15:57, Rest time:  0:29:44.329620
+Evaluated [3700/5010]: Spent time: 1:18:03, Rest time:  0:27:37.587540
+Evaluated [3800/5010]: Spent time: 1:20:08, Rest time:  0:25:30.565300
+Evaluated [3900/5010]: Spent time: 1:22:14, Rest time:  0:23:23.932440
+Evaluated [4000/5010]: Spent time: 1:24:20, Rest time:  0:21:17.330840
+Evaluated [4100/5010]: Spent time: 1:26:27, Rest time:  0:19:10.979830
+ InputExample(guid='test-14140', text_a='Die finanziellen Kosten, eine Mikrowelle  für 6$ zu haben.', text_b='Es kostet sechs Dollar, eine Mikrowelle zu behalten.', label='entailment')
+Evaluated [4200/5010]: Spent time: 1:28:33, Rest time:  0:17:04.406190
+Evaluated [4300/5010]: Spent time: 1:30:39, Rest time:  0:14:57.858900
+ InputExample(guid='test-14392', text_a='Gut, ich wollte mich nicht anmelden.', text_b='Ich habe mich auf jeden Fall angemeldet.', label='contradiction')
+Evaluated [4400/5010]: Spent time: 1:32:45, Rest time:  0:12:51.335850
+Evaluated [4500/5010]: Spent time: 1:34:51, Rest time:  0:10:44.836860
+Evaluated [4600/5010]: Spent time: 1:36:57, Rest time:  0:08:38.358900
+Evaluated [4700/5010]: Spent time: 1:39:03, Rest time:  0:06:31.901690
+Evaluated [4800/5010]: Spent time: 1:41:09, Rest time:  0:04:25.463520
+Evaluated [4900/5010]: Spent time: 1:43:15, Rest time:  0:02:19.043080
+Evaluated [5000/5010]: Spent time: 1:45:21, Rest time:  0:00:12.639470
+google/gemma-2-2b-jpn-it Accuracy on dev_set:  0.4560878243512974

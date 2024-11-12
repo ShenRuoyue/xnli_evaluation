@@ -1,0 +1,55 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.59s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.14it/s]
+The 'max_batch_size' argument of HybridCache is deprecated and will be removed in v4.46. Use the more precisely named 'batch_size' argument instead.
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Evaluated [0/5010]: Spent time: 0:00:07, Rest time:  9:44:30
+Evaluated [100/5010]: Spent time: 0:02:14, Rest time:  1:48:34.259030
+Evaluated [200/5010]: Spent time: 0:04:22, Rest time:  1:44:29.753230
+Evaluated [300/5010]: Spent time: 0:06:29, Rest time:  1:41:27.010890
+Evaluated [400/5010]: Spent time: 0:08:36, Rest time:  1:38:52.069630
+Evaluated [500/5010]: Spent time: 0:10:43, Rest time:  1:36:28.282830
+Evaluated [600/5010]: Spent time: 0:12:51, Rest time:  1:34:17.421420
+Evaluated [700/5010]: Spent time: 0:14:58, Rest time:  1:32:01.226370
+Evaluated [800/5010]: Spent time: 0:17:06, Rest time:  1:29:52.584790
+Evaluated [900/5010]: Spent time: 0:19:13, Rest time:  1:27:39.521790
+Evaluated [1000/5010]: Spent time: 0:21:20, Rest time:  1:25:27.671210
+Evaluated [1100/5010]: Spent time: 0:23:26, Rest time:  1:23:13.152110
+Evaluated [1200/5010]: Spent time: 0:25:33, Rest time:  1:21:03.221160
+Evaluated [1300/5010]: Spent time: 0:27:39, Rest time:  1:18:50.891830
+Evaluated [1400/5010]: Spent time: 0:29:45, Rest time:  1:16:39.464900
+Evaluated [1500/5010]: Spent time: 0:31:51, Rest time:  1:14:28.760010
+Evaluated [1600/5010]: Spent time: 0:33:58, Rest time:  1:12:20.773140
+Evaluated [1700/5010]: Spent time: 0:36:05, Rest time:  1:10:12.905110
+Evaluated [1800/5010]: Spent time: 0:38:12, Rest time:  1:08:05.129460
+Evaluated [1900/5010]: Spent time: 0:40:44, Rest time:  1:06:38.337290
+Evaluated [2000/5010]: Spent time: 0:42:55, Rest time:  1:04:33.439570
+Evaluated [2100/5010]: Spent time: 0:45:03, Rest time:  1:02:23.802300
+Evaluated [2200/5010]: Spent time: 0:47:41, Rest time:  1:00:52.617840
+Evaluated [2300/5010]: Spent time: 0:50:10, Rest time:  0:59:05.024170
+Evaluated [2400/5010]: Spent time: 0:52:19, Rest time:  0:56:52.240920
+Evaluated [2500/5010]: Spent time: 0:54:33, Rest time:  0:54:44.779270
+Evaluated [2600/5010]: Spent time: 0:56:41, Rest time:  0:52:31.253340
+Evaluated [2700/5010]: Spent time: 0:58:51, Rest time:  0:50:19.849140
+Evaluated [2800/5010]: Spent time: 1:01:00, Rest time:  0:48:07.753960
+Evaluated [2900/5010]: Spent time: 1:03:08, Rest time:  0:45:55.147270
+Evaluated [3000/5010]: Spent time: 1:05:16, Rest time:  0:43:42.844980
+Evaluated [3100/5010]: Spent time: 1:07:26, Rest time:  0:41:32.053400
+Evaluated [3200/5010]: Spent time: 1:09:43, Rest time:  0:39:25.269990
+Evaluated [3300/5010]: Spent time: 1:12:12, Rest time:  0:37:24.084300
+Evaluated [3400/5010]: Spent time: 1:14:20, Rest time:  0:35:11.320190
+Evaluated [3500/5010]: Spent time: 1:16:29, Rest time:  0:32:59.259680
+Evaluated [3600/5010]: Spent time: 1:18:37, Rest time:  0:30:46.978740
+Evaluated [3700/5010]: Spent time: 1:20:46, Rest time:  0:28:35.282560
+Evaluated [3800/5010]: Spent time: 1:22:54, Rest time:  0:26:23.409630
+Evaluated [3900/5010]: Spent time: 1:25:07, Rest time:  0:24:13.157610
+Evaluated [4000/5010]: Spent time: 1:27:25, Rest time:  0:22:04.031220
+Evaluated [4100/5010]: Spent time: 1:29:41, Rest time:  0:19:54.028290
+Evaluated [4200/5010]: Spent time: 1:31:50, Rest time:  0:17:42.389520
+Evaluated [4300/5010]: Spent time: 1:34:02, Rest time:  0:15:31.369480
+Evaluated [4400/5010]: Spent time: 1:36:12, Rest time:  0:13:20.027200
+Evaluated [4500/5010]: Spent time: 1:38:41, Rest time:  0:11:10.897350
+Evaluated [4600/5010]: Spent time: 1:40:53, Rest time:  0:08:59.389440
+Evaluated [4700/5010]: Spent time: 1:43:10, Rest time:  0:06:48.189710
+Evaluated [4800/5010]: Spent time: 1:45:22, Rest time:  0:04:36.529890
+Evaluated [4900/5010]: Spent time: 1:47:33, Rest time:  0:02:24.833700
+Evaluated [5000/5010]: Spent time: 1:49:47, Rest time:  0:00:13.171370
+google/gemma-2-2b-it Accuracy on dev_set:  0.5720558882235529
